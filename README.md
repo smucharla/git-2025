@@ -16,3 +16,16 @@ origin: This is the default name given to the remote repository from which you t
 
 main: This is the name of the branch you are pushing. In this context, it refers to your local main branch.
 
+###
+Conencting to github via SSH
+
+1. generate ssh-keys using ssh-keygen command
+2. Copy the contents of ~/.ssh/id_ed25519.pub into Mac's clipboard
+3. Goto github. Profile-->settings-->Add SSh keys under access -->add ssh_key --> Give it a name and copy the contents.
+4. execute git remote -v
+5. Remove the old https remote using "git remote remove origin"
+6. Add the SSH remote usingthe below command.
+   git remote add origin git@github.com:smucharla/git-2025.git
+
+
+
