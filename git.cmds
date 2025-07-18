@@ -1,0 +1,8 @@
+  685  cd git-practice
+  687  cd ../git-practice
+  689  rm -rf git-practice
+  692  git clone https://github.com/smucharla/git-2025
+  694  cd git
+  695  cd git-2025
+  699  history | grep ^git
+  700  history | grep git
